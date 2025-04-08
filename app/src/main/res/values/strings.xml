@@ -3,4 +3,20 @@
 <resources>
     <string name="app_name">QUIZ_APP</string>
     <string name="name_log" translatable="false">entre votre nom</string>
+    <string name="password_log" translatable="false">entre votre motpass</string>
+    <string name="login_btn" translatable="false">Connect</string>
+    <string name="next_btn" translatable="false">Next</string>
+
+    <string name="start_quiz_btn" translatable="false">Start Quiz</string>
+    <string name="text_quiz_btn" translatable="false">Choose the right answers, you’re ready!</string>
+
+    <string name="forgot_password" translatable="false">you forgot your password ?!!</string>
+    <string name="password_signup" translatable="false">entre votre motpass</string>
+    <string name="password_signup_confirmation" translatable="false">entre votre motpass confirmer</string>
+
+    <string name="algeria" translatable="false">Is it Algeria</string>
+    <string name="Tunisia" translatable="false">Is it Tunisia</string>
+    <string name="Morocco" translatable="false">Is it Morocco</string>
+    <string name="Frensh" translatable="false">Is it Frensh</string>
+
 </resources>

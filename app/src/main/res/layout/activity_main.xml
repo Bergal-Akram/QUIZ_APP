@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:ems="10"
+        android:hint="@string/password_log"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -34,8 +35,8 @@
         android:id="@+id/btn_log"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:text="Button"
+        android:layout_marginStart="96dp"
+        android:hint="@string/login_btn"
         app:layout_constraintStart_toEndOf="@+id/frg_log"
         tools:layout_editor_absoluteY="434dp" />
 
@@ -45,17 +46,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:ems="10"
+        android:hint="@string/name_log"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
-        
+
 
     <TextView
         android:id="@+id/frg_log"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="63dp"
+        android:hint="@string/forgot_password"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="449dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
