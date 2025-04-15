@@ -6,6 +6,7 @@
     <string name="password_log" translatable="false">entre votre motpass</string>
     <string name="login_btn" translatable="false">Connect</string>
     <string name="next_btn" translatable="false">Next</string>
+    <string name="back_btn" translatable="false">back</string>
 
     <string name="start_quiz_btn" translatable="false">Start Quiz</string>
     <string name="text_quiz_btn" translatable="false">Choose the right answers, you’re ready!</string>
