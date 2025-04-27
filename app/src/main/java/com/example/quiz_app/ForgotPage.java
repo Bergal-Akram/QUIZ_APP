@@ -11,7 +11,7 @@ public class ForgotPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ForgotPage);
+        setContentView(R.layout.forgotpage);
 
         EditText EmailSend = findViewById(R.id.email_send);
         Button btnSendReset = findViewById(R.id.btnSendReset);

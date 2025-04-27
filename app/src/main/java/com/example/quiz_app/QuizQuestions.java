@@ -10,8 +10,13 @@ public class QuizQuestions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.QuestionQuiz);
+        setContentView(R.layout.questionquiz);
 
-
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, new QuestionFragment())
+                .commit();
     }
 }
+
+
+

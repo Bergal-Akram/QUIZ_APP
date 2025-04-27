@@ -13,7 +13,7 @@ public class SignUp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.SignUp);
+        setContentView(R.layout.sign_up);
 
         EditText etUsername = findViewById(R.id.et_username);
         EditText etEmail = findViewById(R.id.et_email);

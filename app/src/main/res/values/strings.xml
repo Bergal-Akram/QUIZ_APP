@@ -1,5 +1,3 @@
-
-
 <resources>
     <string name="app_name">QUIZ_APP</string>
     <string name="name_log" translatable="false">entre votre nom</string>
@@ -19,5 +17,18 @@
     <string name="Tunisia" translatable="false">Is it Tunisia</string>
     <string name="Morocco" translatable="false">Is it Morocco</string>
     <string name="Frensh" translatable="false">Is it Frensh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="frg_pass" translatable="false">Forgot Password?</string>
+    <string name="email" translatable="false">Enter your email or username</string>
+    <string name="send_res_link" translatable="false">Send Reset Link</string>
+    <string name="opt3" translatable="false">Horse</string>
+    <string name="opt4" translatable="false">Cow</string>
+    <string name="op1" translatable="false">Cat</string>
+    <string name="opt2" translatable="false">Dog</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="sec_time" translatable="false">20s</string>
+    <string name="quest_nbr" translatable="false">Question 1/10</string>
+    <string name="quest" translatable="false">What does \'chien\' mean in English?</string>
 
 </resources>
