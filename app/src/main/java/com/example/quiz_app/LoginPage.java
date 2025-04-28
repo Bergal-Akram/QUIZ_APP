@@ -22,30 +22,34 @@ public class LoginPage extends AppCompatActivity {
         EditText password = findViewById(R.id.Pass_log);
         TextView Sign_page = findViewById(R.id.signup_now);
         TextView reset = findViewById(R.id.frg_log);
-        Button login = findViewById(R.id.btn_log);
+        Button lgn = findViewById(R.id.btn_log);
 
-        login.setOnClickListener(new View.OnClickListener() {
+        lgn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 String text_username = username.getText().toString();
                 String text_password = password.getText().toString();
 
-                if(text_username.equals("akram@gmail.com") && text_password.equals("password0123456789")){
-                    Intent intent = new Intent(LoginPage.this , StartQuiz.class);
-                    intent.putExtra("user_name",text_username);
+                    Intent intent = new Intent(LoginPage.this,StartQuiz.class);
+                    //intent.putExtra("user_name",text_username);
                     startActivity(intent);
-                }
-                else {
-                    Toast.makeText(LoginPage.this,"username or password are wrong",Toast.LENGTH_SHORT).show();
-                }
+
             }
         });
 
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginPage.this, ForgotPage.class);
+                Intent intent = new Intent(LoginPage.this,ForgotPage.class);
+                startActivity(intent);
+            }
+        });
+
+        Sign_page.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginPage.this,SignUp.class);
                 startActivity(intent);
             }
         });

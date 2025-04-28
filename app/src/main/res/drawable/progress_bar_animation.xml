@@ -1,0 +1,6 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/progress_frame1" android:duration="100" />
+    <item android:drawable="@drawable/progress_frame2" android:duration="100" />
+    <item android:drawable="@drawable/progress_frame3" android:duration="100" />
+    <item android:drawable="@drawable/progress_frame4" android:duration="100" />
+</animation-list>

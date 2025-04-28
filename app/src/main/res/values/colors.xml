@@ -5,4 +5,7 @@
     <color name="purple">#5E0364</color>
     <color name="grey">#AAAAAA</color>
     <color name="blue">#2196F3</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="red_dark">#DA0303</color>
 </resources>
