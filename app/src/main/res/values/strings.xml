@@ -1,34 +1,28 @@
 <resources>
-    <string name="app_name">QUIZ_APP</string>
-    <string name="name_log" translatable="false">entre votre nom</string>
-    <string name="password_log" translatable="false">entre votre motpass</string>
-    <string name="login_btn" translatable="false">Connect</string>
-    <string name="next_btn" translatable="false">Next</string>
-    <string name="back_btn" translatable="false">back</string>
-
-    <string name="start_quiz_btn" translatable="false">Start Quiz</string>
-    <string name="text_quiz_btn" translatable="false">Choose the right answers, you’re ready!</string>
-
-    <string name="forgot_password" translatable="false">you forgot your password ?!!</string>
-    <string name="password_signup" translatable="false">entre votre motpass</string>
-    <string name="password_signup_confirmation" translatable="false">entre votre motpass confirmer</string>
-
-    <string name="algeria" translatable="false">Is it Algeria</string>
-    <string name="Tunisia" translatable="false">Is it Tunisia</string>
-    <string name="Morocco" translatable="false">Is it Morocco</string>
-    <string name="Frensh" translatable="false">Is it Frensh</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
-    <string name="frg_pass" translatable="false">Forgot Password?</string>
-    <string name="email" translatable="false">Enter your email or username</string>
-    <string name="send_res_link" translatable="false">Send Reset Link</string>
-    <string name="opt3" translatable="false">Horse</string>
-    <string name="opt4" translatable="false">Cow</string>
-    <string name="op1" translatable="false">Cat</string>
-    <string name="opt2" translatable="false">Dog</string>
-    <string name="next" translatable="false">Next</string>
-    <string name="sec_time" translatable="false">20s</string>
-    <string name="quest_nbr" translatable="false">Question 1/10</string>
-    <string name="quest" translatable="false">What does \'chien\' mean in English?</string>
-
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign up</string>
+    <string name="send_link_to_email">Send link to email</string>
+    <string name="entre_your_email">Enter your email</string>
+    <string name="your_result">Your Result</string>
+    <string name="do_you_want_to_restart_the_quiz">Do you want to restart the quiz?</string>
+    <string name="restart">Restart</string>
+    <string name="go_back_to_home">Go Back to Home</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="question_1_10">Question 1/10</string>
+    <string name="time_left_30s">Time left: 30s</string>
+    <string name="question">Question</string>
+    <string name="choice_a">Choice A</string>
+    <string name="choice_b">Choice B</string>
+    <string name="choice_c">Choice C</string>
+    <string name="choice_d">Choice D</string>
+    <string name="next">Next</string>
+    <string name="logout">Logout</string>
+    <string name="english_quiz">CS Quiz</string>
+    <string name="test">Test your Knowledge In computer science</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="cs_quiz">CS Quiz</string>
 </resources>

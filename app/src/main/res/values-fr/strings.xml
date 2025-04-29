@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="login">Connexion</string>
+    <string name="password">Mot de passe</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="don_t_have_an_account_sign_up">Vous n\'avez pas de compte ? Inscrivez-vous</string>
+    <string name="send_link_to_email">Envoyer le lien à l\'email</string>
+    <string name="entre_your_email">Entrez votre email</string>
+    <string name="your_result">Votre résultat</string>
+    <string name="do_you_want_to_restart_the_quiz">Voulez-vous redémarrer le quiz ?</string>
+    <string name="restart">Redémarrer</string>
+    <string name="go_back_to_home">Retour à l\'accueil</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="already_have_an_account_login">Vous avez déjà un compte ? Connectez-vous</string>
+    <string name="question_1_10">Question 1/10</string>
+    <string name="time_left_30s">Temps restant : 30s</string>
+    <string name="question">Question</string>
+    <string name="choice_a">Choix A</string>
+    <string name="choice_b">Choix B</string>
+    <string name="choice_c">Choix C</string>
+    <string name="choice_d">Choix D</string>
+    <string name="next">Suivant</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="english_quiz">Quiz Informatique</string>
+    <string name="test_your_english_skills_in_vocabulary_grammar_and_comprehension">Testez vos compétences en vocabulaire, grammaire et compréhension !</string>
+    <string name="start_quiz">Commencer le quiz</string>
+</resources>

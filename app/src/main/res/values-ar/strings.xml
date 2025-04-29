@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QUIZ_APP</string>
-    <string name="name_log">ادخل اسمك</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="password">كلمة المرور</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="don_t_have_an_account_sign_up">ليس لديك حساب؟ سجل الآن</string>
+    <string name="send_link_to_email">أرسل الرابط إلى البريد الإلكتروني</string>
+    <string name="entre_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="your_result">نتيجتك</string>
+    <string name="do_you_want_to_restart_the_quiz">هل تريد إعادة الاختبار؟</string>
+    <string name="restart">إعادة</string>
+    <string name="go_back_to_home">العودة إلى الصفحة الرئيسية</string>
+    <string name="sign_up">سجّل</string>
+    <string name="already_have_an_account_login">لديك حساب؟ سجّل الدخول</string>
+    <string name="question_1_10">السؤال 1/10</string>
+    <string name="time_left_30s">الوقت المتبقي: 30 ثانية</string>
+    <string name="question">السؤال</string>
+    <string name="choice_a">الخيار أ</string>
+    <string name="choice_b">الخيار ب</string>
+    <string name="choice_c">الخيار ج</string>
+    <string name="choice_d">الخيار د</string>
+    <string name="next">التالي</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="english_quiz">اختبار CS</string>
+    <string name="test">اختبر معرفتك في علوم الحاسوب!</string>
+    <string name="start_quiz">ابدأ الاختبار</string>
+    <string name="cs_quiz">CS Quiz</string>
 </resources>

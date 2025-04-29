@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="white">#E5FFFFFF</color>
     <color name="green">#4CAF50</color>
     <color name="colorPrimary">#2196F3</color>
     <color name="colorPrimaryDark">#1976D2</color>
@@ -18,4 +19,5 @@
 
     <color name="errorColor">#F44336</color>
     <color name="purple">#6856A1</color>
+    <color name="grey">#9E9E9E</color>
 </resources>

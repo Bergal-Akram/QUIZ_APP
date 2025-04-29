@@ -36,7 +36,7 @@ public class QuizAdapter extends RecyclerView.Adapter<QuizAdapter.QuizViewHolder
         @NonNull
         @Override
         public QuizViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_quest, parent, false);
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_question, parent, false);
             return new QuizViewHolder(view);
         }
 
@@ -48,20 +48,6 @@ public class QuizAdapter extends RecyclerView.Adapter<QuizAdapter.QuizViewHolder
         @Override
         public int getItemCount() {
             return questions.length;
-        }
-
-        public void setSelectedAnswer(int position, String selectedAnswer) {
-            selectedAnswers[position] = selectedAnswer;
-        }
-
-        public int getCorrectAnswersCount() {
-            int count = 0;
-            for (int i = 0; i < questions.length; i++) {
-                if (QuestionAnswer.correctAnswers[i].equals(selectedAnswers[i])) {
-                    count++;
-                }
-            }
-            return count;
         }
 
         class QuizViewHolder extends RecyclerView.ViewHolder {
