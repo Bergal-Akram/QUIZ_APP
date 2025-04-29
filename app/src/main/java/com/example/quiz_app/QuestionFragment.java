@@ -65,7 +65,7 @@ public class QuestionFragment extends Fragment {
             Button selected = (Button) v;
             selectedAnswer = selected.getText().toString();
             resetButtonColors();
-            selected.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.purple_200));
+            selected.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.colorAccent));
         };
 
         choiceA.setOnClickListener(choiceClickListener);
@@ -85,6 +85,10 @@ public class QuestionFragment extends Fragment {
     }
 
     private void loadQuestion() {
+        if (currentQuestionIndex >= QuestionAnswer.question.length) {
+            currentQuestionIndex = QuestionAnswer.question.length - 1;
+        }
+
         selectedAnswer = "";
         questionText.setText(QuestionAnswer.question[currentQuestionIndex]);
         choiceA.setText(QuestionAnswer.choices[currentQuestionIndex][0]);
@@ -109,20 +113,26 @@ public class QuestionFragment extends Fragment {
     private void moveToNextQuestion() {
         countDownTimer.cancel(); // أوقف المؤقت
         checkAnswer();
-        currentQuestionIndex++;
-        if (currentQuestionIndex < QuestionAnswer.question.length) {
-            loadQuestion();
-        } else {
-            Intent intent = new Intent(getActivity(), ResultActivity.class);
-            intent.putExtra("score", score);
-            intent.putExtra("total", QuestionAnswer.question.length);
-            startActivity(intent);
-            getActivity().finish();
-        }
+        highlightCorrectAnswer(); // تلوين الإجابة الصحيحة
+
+        //  انتظر ثانية واحدة لعرض اللون، ثم انتقل للسؤال التالي
+        new android.os.Handler().postDelayed(() -> {
+            currentQuestionIndex++;
+            if (currentQuestionIndex < QuestionAnswer.question.length) {
+                loadQuestion();
+            } else {
+                Intent intent = new Intent(getActivity(), ResultActivity.class);
+                intent.putExtra("score", score);
+                intent.putExtra("total", QuestionAnswer.question.length);
+                startActivity(intent);
+                getActivity().finish();
+            }
+        }, 500); // 1000 ملي ثانية = 1 ثانية
     }
 
+
     private void resetButtonColors() {
-        int defaultColor = ContextCompat.getColor(getContext(), R.color.teal_200);
+        int defaultColor = ContextCompat.getColor(getContext(), R.color.purple);
         choiceA.setBackgroundColor(defaultColor);
         choiceB.setBackgroundColor(defaultColor);
         choiceC.setBackgroundColor(defaultColor);
@@ -162,6 +172,18 @@ public class QuestionFragment extends Fragment {
             }
         } else {
             timerText.setTextColor(ContextCompat.getColor(getContext(), android.R.color.black));
+        }
+    }
+    private void highlightCorrectAnswer() {
+        String correct = QuestionAnswer.correctAnswers[currentQuestionIndex];
+        if (choiceA.getText().toString().equals(correct)) {
+            choiceA.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.green));
+        } else if (choiceB.getText().toString().equals(correct)) {
+            choiceB.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.green));
+        } else if (choiceC.getText().toString().equals(correct)) {
+            choiceC.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.green));
+        } else if (choiceD.getText().toString().equals(correct)) {
+            choiceD.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.green));
         }
     }
 

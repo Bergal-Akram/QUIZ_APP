@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class ResultActivity extends AppCompatActivity {
         TextView resultText;
-        Button restartBtn;
+        Button restartBtn , BacktoHome;
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class ResultActivity extends AppCompatActivity {
 
             resultText = findViewById(R.id.result_quiz);
             restartBtn = findViewById(R.id.restart_btn);
+            BacktoHome = findViewById(R.id.back_home);
 
             int score = getIntent().getIntExtra("score", 0);
             int total = getIntent().getIntExtra("total", 0);
@@ -28,7 +29,11 @@ public class ResultActivity extends AppCompatActivity {
             restartBtn.setOnClickListener(v -> {
                 Intent intent = new Intent(this, QuizQuestions.class);
                 startActivity(intent);
-                finish();
+            });
+
+            BacktoHome.setOnClickListener(v -> {
+                Intent intent = new Intent(this, StartQuiz.class);
+                startActivity(intent);
             });
         }
     }

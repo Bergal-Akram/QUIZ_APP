@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="purple">#5E0364</color>
-    <color name="grey">#AAAAAA</color>
-    <color name="blue">#2196F3</color>
-    <color name="purple_200">#BB86FC</color>
-    <color name="teal_200">#03DAC5</color>
-    <color name="red_dark">#DA0303</color>
+    <color name="green">#4CAF50</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="backgroundColor">#F9F9F9</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+    <color name="inputBackground">#FFFFFF</color>
+    <color name="inputBorder">#DDDDDD</color>
+
+    <color name="buttonColor">#2196F3</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <color name="errorColor">#F44336</color>
+    <color name="purple">#6856A1</color>
 </resources>
